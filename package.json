@@ -1,0 +1,12 @@
+{
+  "name": "price-watch-fintech-typescript",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/price_watch_route.ts",
+    "test": "node --experimental-strip-types src/price_watch.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "zod": "^3.23.8" },
+  "devDependencies": { "typescript": "^5.6.3", "@types/node": "^22.10.2" }
+}
